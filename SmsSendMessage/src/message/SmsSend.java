@@ -19,8 +19,8 @@ public class SmsSend {
 	//@Note: According to the Twilio Documents Max. 35 SMS/Day -> 100SMS/Month is limit for free account
 	// Add your Account SID and Auth Token From the Environment Variables 
 	//Where ensure that U added these to your Environment Variables
-	public static final String ACCOUNT_SID = "ACc0e05e6b3654b81d8afc582373b7e0a5";
-	public static final String AUTH_TOKEN = "e97218d1e1f2ed47eef7f01e279844ee";
+	public static final String ACCOUNT_SID = "get from twillo";
+	public static final String AUTH_TOKEN = "get from twillo";
 
 	public static void main(String[] args) throws Exception {
 		int phoneNumberCount = 0;

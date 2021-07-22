@@ -93,7 +93,7 @@ public class PdfCertificate{
 
 					// ---------------Main Content ----------------------
 					// Add Student Name
-					String studentName = "Mr.Madhavan";
+					String studentName = "Student name";
 //						System.out.print("Enter Student Name (FirstName SurnNme): ");
 //						studentName = input.nextLine();
 //						studentName = "Mr. "+studentName;
@@ -120,7 +120,7 @@ public class PdfCertificate{
 					setData(pdfStamper, "Acquired on", BaseFont.TIMES_BOLDITALIC, 14, BaseColor.DARK_GRAY, 200, 120, 50,95);
 
 					// Add Name of the Head Person
-					String nameOfHeadPerson = "Mr.Harees Professor";
+					String nameOfHeadPerson = "Director name";
 					String direc = "Director of Haaris Infotech Pvt. Ltd.";
 					// Enable During Final Test (To get input from User)
 //						System.out.print("Enter Head/Director Name : ");
